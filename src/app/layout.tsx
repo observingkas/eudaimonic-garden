@@ -13,9 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-parchment text-ink font-body">
-        <main className="max-w-3xl mx-auto px-6 py-10">
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   );
